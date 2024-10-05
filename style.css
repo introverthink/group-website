@@ -1,6 +1,8 @@
 h1 {
     color: blue;
 }
-p{
-    size: 100;
+.HW{
+    font-weight: bold;
+    font-size: 100pt;
+    
 }
