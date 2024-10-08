@@ -1,8 +1,51 @@
-h1 {
-    color: blue;
+body {
+    margin: 0;
+    padding: 0;
 }
-.HW{
-    font-weight: bold;
-    font-size: 100pt;
-    
+
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100vw;
+    height: 800vh;
+}
+
+.panel {
+    display: flex;
+    width: 100%;
+    height: 99vh;
+    background-color: red;
+}
+
+#footer {
+    background-color: grey;
+}
+
+.gradient1{
+    background: linear-gradient(black, darkblue);
+}
+
+.gradient2{
+    background: linear-gradient(darkblue, teal);
+}
+
+.gradient3{
+    background: linear-gradient(teal, blue);
+}
+
+.gradient4{
+    background: linear-gradient(blue, indigo);
+}
+
+.gradient5{
+    background: linear-gradient(indigo, purple);
+}
+
+.gradient6{
+    background: linear-gradient(purple, magenta);
+}
+
+.gradient7{
+    background: linear-gradient(magenta, red);
 }
