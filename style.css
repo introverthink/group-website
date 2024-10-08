@@ -23,29 +23,29 @@ body {
 }
 
 .gradient1{
-    background: linear-gradient(black, darkblue);
+    background: linear-gradient(#0b061a, #2c1868);
 }
 
 .gradient2{
-    background: linear-gradient(darkblue, teal);
+    background: linear-gradient(#341c7d, #096565);
 }
 
 .gradient3{
-    background: linear-gradient(teal, blue);
+    background: linear-gradient(#096565, #174965);
 }
 
 .gradient4{
-    background: linear-gradient(blue, indigo);
+    background: linear-gradient(#203765, #2B2265);
 }
 
 .gradient5{
-    background: linear-gradient(indigo, purple);
+    background: linear-gradient(#301765, #370965);
 }
 
 .gradient6{
-    background: linear-gradient(purple, magenta);
+    background: linear-gradient(#370965, #4a095a);
 }
 
 .gradient7{
-    background: linear-gradient(magenta, red);
+    background: linear-gradient(#520956, #65094B);
 }
