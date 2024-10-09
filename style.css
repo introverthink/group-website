@@ -12,18 +12,21 @@
     font-weight: 700;
 }
 
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
 body {
     margin: 0;
     padding: 0;
 }
 
 #main {
-    z-index: 1;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 100vw;
-    height: 700vh;
+    height: 600vh;
 }
 
 #header > div {
@@ -37,8 +40,20 @@ body {
     border: 1px #ffffff dashed;
 }
 
-#header > div > h1 {
-    font-family: 'Ubuntu', sans-serif;
+#header > div > button {
+    width: 200px;
+    height: 60px;
+    font-size: 18px;
+    color: #ffffff;
+    background: none;
+    border: 4px solid #ffffff;
+    border-radius: 30px;
+}
+
+#header > div > button:hover {
+    transition: 0.5s;
+    background-color: #ffffff;
+    color: #000000;
 }
 
 .panel {
@@ -48,7 +63,6 @@ body {
     align-items: center;
     width: 100%;
     height: 99vh;
-    background-color: red;
 }
 
 .person {
@@ -72,7 +86,6 @@ body {
     text-align: center;
     width: 100%;
     height: 20%;
-    font-family: 'Ubuntu', sans-serif;
     font-weight: 700;
     font-size: 56px;
     color: #ffffff;
@@ -82,41 +95,71 @@ body {
 .info {
     width: 30%;
     height: 65%;
-    font-family: 'Ubuntu', sans-serif;
     font-weight: 300;
     font-size: 36px;
     color: #ffffff;
     border: 1px #ffffff dashed;
 }
 
-#footer {
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
     background-color: #808080;
 }
 
-.gradient1{
+footer > div {
+    height: 70%;
+    border: 1px #ffffff dashed;
+}
+
+.logo {
+    width: 25%;
+}
+
+.contacts {
+    width: 30%;
+}
+
+.gradient1 {
     background: linear-gradient(#0b061a, #2c1868);
 }
 
-.gradient2{
+.gradient2 {
     background: linear-gradient(#341c7d, #096565);
 }
 
-.gradient3{
+.gradient3 {
     background: linear-gradient(#096565, #174965);
 }
 
-.gradient4{
+.gradient4 {
     background: linear-gradient(#203765, #2B2265);
 }
 
-.gradient5{
+.gradient5 {
     background: linear-gradient(#301765, #370965);
 }
 
-.gradient6{
+.gradient6 {
     background: linear-gradient(#370965, #4a095a);
 }
 
 /* .gradient7{
     background: linear-gradient(#520956, #65094B);
 } */
+
+.textToLeft {
+    text-align: left;
+}
+
+.textToRight {
+    text-align: right;
+}
+
+.textToCenter {
+    text-align: center;
+}
