@@ -45,7 +45,6 @@ header > nav > div {
     justify-content: center;
     width: 80%;
     height: 100%;
-    border: 1px dashed red;
 }
 
 .navLogo {
@@ -53,7 +52,6 @@ header > nav > div {
     justify-content: center;
     width: 20%;
     height: 100%;
-    border: 1px dashed green;
 }
 
 .navLogo > a {
@@ -72,7 +70,6 @@ header > nav > div {
     align-items: center;
     width: 80%;
     height: 100%;
-    border: 1px dashed green;
 }
 
 .links > a {
@@ -97,7 +94,6 @@ main {
     width: 40%;
     height: 60%;
     color: #ffffff;
-    border: 1px #ffffff dashed;
 }
 
 #introduction > div > a {
@@ -135,13 +131,14 @@ main {
     flex-direction: column;
     width: 25%;
     height: 65%;
-    border: 1px #ffffff dashed;
 }
 
 .photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     height: 80%;
-    border: 1px yellow dashed;
 }
 
 .name {
@@ -154,16 +151,16 @@ main {
     font-weight: 700;
     font-size: 56px;
     color: #ffffff;
-    border: 1px yellow dashed;
 }
 
 .info {
+    display: flex;
+    align-items: center;
     width: 30%;
     height: 65%;
     font-weight: 300;
     font-size: 36px;
     color: #ffffff;
-    border: 1px #ffffff dashed;
 }
 
 footer {
@@ -172,14 +169,13 @@ footer {
     justify-content: space-evenly;
     align-items: center;
     width: 100vw;
-    height: 50vh;
-    background-color: #808080;
+    height: 30vh;
+    background-color: #ffffff;
 }
 
 footer > div {
     display: flex;
     height: 70%;
-    border: 1px #ffffff dashed;
 }
 
 .footerLogo {
@@ -188,7 +184,7 @@ footer > div {
 
 .contacts {
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     width: 30%;
 }
@@ -196,7 +192,8 @@ footer > div {
 .contacts > a {
     text-decoration: none;
     color: #000000;
-    font-size: 20px;
+    font-size: 24px;
+    font-weight: 300;
 }
 
 .gradient1 {
@@ -225,7 +222,7 @@ footer > div {
 
 /* .gradient7{
     background: linear-gradient(#520956, #65094B);
-} */
+} 
 
 .textToLeft {
     text-align: left;
@@ -233,7 +230,7 @@ footer > div {
 
 .textToRight {
     text-align: right;
-}
+} */
 
 .textToCenter {
     text-align: center;
