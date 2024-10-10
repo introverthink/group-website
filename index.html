@@ -4,11 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Nerd Team</title>
+    <title>Nerd Team Project</title>
 </head>
 <body>
-    <div id="main">
-        <section class="panel gradient1" id="header">
+    <header>
+        <nav>
+            <div>
+                <section class="navLogo">
+                    <a href="#introduction"><img src="./logo.png" alt="desc"></a>
+                </section>
+
+                <section class="links">
+                    <a href="#altair">Альтаир</a>
+                    <a href="#aldiyar">Алдияр</a>
+                    <a href="#bahytbek">Бахытбек</a>
+                    <a href="#omirkhan">Омирхан</a>
+                    <a href="#sherkhannurislam">Шерхан & Нурислам</a>
+                </section>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="panel gradient1" id="introduction">
             <div>
                 <p style="font-weight: 700; font-size: 56px;">Hello Everyone!</p>
                 <p style="font-weight: 300; font-size: 24px;">Here's the website we made for our homework</p>
@@ -18,7 +36,7 @@
             <div></div>
         </section>
 
-        <section class="panel gradient2">
+        <section id="altair" class="panel gradient2">
             <div class="person">
                 <div class="photo"></div>
                 <div class="name">Альтаир</div>
@@ -29,7 +47,7 @@
             </div>
         </section>
 
-        <section class="panel gradient3">
+        <section id="aldiyar" class="panel gradient3">
             <div class="info">
                 <p class="textToLeft">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum libero vel elementum suscipit. Morbi molestie eros aliquam, blandit massa non, volutpat sem. Aliquam malesuada vestibulum gravida. Aliquam at enim fringilla, auctor diam at, pellentesque ipsum. Integer vitae nisl iaculis tortor auctor dapibus.</p> 
             </div>
@@ -40,7 +58,7 @@
             </div>
         </section>
 
-        <section class="panel gradient4">
+        <section id="bahytbek" class="panel gradient4">
             <div class="person">
                 <div class="photo"></div>
                 <div class="name">Бахытбек</div>
@@ -51,7 +69,7 @@
             </div>
         </section>
 
-        <section class="panel gradient5">
+        <section id="omirkhan" class="panel gradient5">
             <div class="info">
                 <p class="textToLeft">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum libero vel elementum suscipit. Morbi molestie eros aliquam, blandit massa non, volutpat sem. Aliquam malesuada vestibulum gravida. Aliquam at enim fringilla, auctor diam at, pellentesque ipsum. Integer vitae nisl iaculis tortor auctor dapibus.</p> 
             </div>
@@ -66,7 +84,7 @@
             </div>
         </section>
 
-        <section class="panel gradient6">
+        <section id="sherkhannurislam" class="panel gradient6">
             <div class="person">
                 <div class="photo"></div>
                 <div class="name">Шерхан</div>
@@ -85,12 +103,19 @@
         <!--<section class="panel gradient7">
 
         </section> -->
-    </div>
+    </main>
 
     <footer id="footer">
-        <div class="logo"></div>
+        <div class="footerLogo"><img src="logo.png" alt=""></div>
 
-        <div class="contacts"></div>
+        <div class="contacts">
+            <a href="#">Соц.сети Альтаира</a>
+            <a href="#">Соц.сети Алдияра</a>
+            <a href="#">Соц.сети Бахытбека</a>
+            <a href="#">Соц.сети Омирхана</a>
+            <a href="#">Соц.сети Шерхана</a>
+            <a href="#">Соц.сети Нурислама</a>
+        </div>
     </footer>
 </body>
 </html>

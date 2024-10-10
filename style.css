@@ -25,7 +25,63 @@ body {
     padding: 0;
 }
 
-#main {
+header {
+    width: 100vw;
+    height: 10vh;
+    position: sticky;
+    top: 0;
+}
+
+header > nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+header > nav > div {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 100%;
+    border: 1px dashed red;
+}
+
+.navLogo {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    height: 100%;
+    border: 1px dashed green;
+}
+
+.navLogo > a {
+    display: flex;
+    justify-content: center;
+}
+
+.navLogo > a > img {
+    width: 45%;
+    height: 100%;
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    border: 1px dashed green;
+}
+
+.links > a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -33,7 +89,7 @@ body {
     height: 600vh;
 }
 
-#header > div {
+#introduction > div {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -44,7 +100,7 @@ body {
     border: 1px #ffffff dashed;
 }
 
-#header > div > a {
+#introduction > div > a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -59,7 +115,7 @@ body {
     border-radius: 30px;
 }
 
-#header > div > a:hover {
+#introduction > div > a:hover {
     transition: 0.5s;
     background-color: #ffffff;
     color: #000000;
@@ -115,22 +171,32 @@ footer {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    width: 100%;
+    width: 100vw;
     height: 50vh;
     background-color: #808080;
 }
 
 footer > div {
+    display: flex;
     height: 70%;
     border: 1px #ffffff dashed;
 }
 
-.logo {
+.footerLogo {
     width: 25%;
 }
 
 .contacts {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
     width: 30%;
+}
+
+.contacts > a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
 }
 
 .gradient1 {
