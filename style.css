@@ -1,237 +1,292 @@
 @font-face {
-    font-family: 'Ubuntu';
-    src: url(Ubuntu-Light.ttf) format('ttf');
-    font-style: normal;
-    font-weight: 300;
+  font-family: "Ubuntu";
+  src: url(Ubuntu-Light.ttf) format("ttf");
+  font-style: normal;
+  font-weight: 300;
 }
 
 @font-face {
-    font-family: 'Ubuntu';
-    src: url(Ubuntu-Bold.ttf) format('ttf');
-    font-style: normal;
-    font-weight: 700;
+  font-family: "Ubuntu";
+  src: url(Ubuntu-Bold.ttf) format("ttf");
+  font-style: normal;
+  font-weight: 700;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 * {
-    font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 header {
-    width: 100vw;
-    height: 10vh;
-    position: sticky;
-    top: 0;
+  width: 100vw;
+  height: 10vh;
+  position: sticky;
+  top: 0;
 }
 
 header > nav {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
 }
 
 header > nav > div {
-    display: flex;
-    justify-content: center;
-    width: 80%;
-    height: 100%;
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  height: 100%;
 }
 
+.sign_in {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 20%;
+  height: 100%;
+}
+
+button {
+  width: 40%;
+  height: 15%;
+  background-color: #cf733a;
+  font-size: 36px;
+  font-weight: 700;
+  color: white;
+}
+
+.sign_in_button {
+  width: 50%;
+  height: 45%;
+  background-color: #6f3586;
+  color: white;
+  font-size: 20px;
+}
 .navLogo {
-    display: flex;
-    justify-content: center;
-    width: 20%;
-    height: 100%;
+  display: flex;
+  justify-content: center;
+  width: 20%;
+  height: 100%;
 }
 
 .navLogo > a {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .navLogo > a > img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .links {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 80%;
-    height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 60%;
+  height: 100%;
 }
 
 .links > a {
-    font-size: 20px;
-    color: black;
-    text-decoration: none;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 100vw;
-    height: 600vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100vw;
+  height: auto;
 }
 
-#introduction > div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 40%;
-    height: 60%;
-    color: #ffffff;
+#about_us {
+  height: 100vh;
 }
 
-#introduction > div > a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 200px;
-    height: 60px;
-    font-size: 18px;
-    text-decoration: none;
-    text-align: center;
-    color: #ffffff;
-    background: none;
-    border: 4px solid #ffffff;
-    border-radius: 30px;
+#about_us > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 70%;
+  color: #ffffff;
+  border: 1px dashed red;
 }
 
-#introduction > div > a:hover {
-    transition: 0.5s;
-    background-color: #ffffff;
-    color: #000000;
+#about_us > div > p {
+  font-size: 56px;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+#about_us > div > a:hover {
+  transition: 0.5s;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+#teachers {
+  height: 150vh;
+}
+
+#teachers > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  height: 70%;
+  color: #ffffff;
+  border: 1px dashed red;
+}
+
+.teacher_info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 70%;
+  height: 20%;
+  border: 1px dashed white;
+}
+
+.teacher_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px dashed red;
+  width: 25%;
+  height: 100%;
+}
+
+.teacher_img > img {
+  width: 85%;
+  height: 85%;
+}
+
+.teacher_text {
+  display: flex;
+  justify-content: center;
+  border: 1px dashed red;
+  font-size: 24px;
+  width: 70%;
+  height: 100%;
 }
 
 .panel {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
-    height: 99vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
 }
 
 .person {
-    display: flex;
-    flex-direction: column;
-    width: 25%;
-    height: 65%;
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  height: 65%;
 }
 
 .photo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 80%;
 }
 
 .name {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-    height: 20%;
-    font-weight: 700;
-    font-size: 56px;
-    color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 20%;
+  font-weight: 700;
+  font-size: 56px;
+  color: #ffffff;
 }
 
 .info {
-    display: flex;
-    align-items: center;
-    width: 30%;
-    height: 65%;
-    font-weight: 300;
-    font-size: 36px;
-    color: #ffffff;
+  display: flex;
+  align-items: center;
+  width: 30%;
+  height: 65%;
+  font-weight: 300;
+  font-size: 36px;
+  color: #ffffff;
 }
 
 footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100vw;
-    height: 30vh;
-    background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100vw;
+  height: 30vh;
+  background-color: #ffffff;
 }
 
 footer > div {
-    display: flex;
-    height: 70%;
+  display: flex;
+  height: 70%;
 }
 
 .footerLogo {
-    width: 25%;
+  width: 25%;
 }
 
 .contacts {
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    width: 30%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
 }
 
 .contacts > a {
-    text-decoration: none;
-    color: #000000;
-    font-size: 24px;
-    font-weight: 300;
+  text-decoration: none;
+  color: #000000;
+  font-size: 24px;
+  font-weight: 300;
 }
 
 .gradient1 {
-    background: linear-gradient(#0b061a, #2c1868);
+  background: linear-gradient(#0b061a, #2c1868);
 }
 
 .gradient2 {
-    background: linear-gradient(#341c7d, #096565);
+  background: linear-gradient(#341c7d, #096565);
 }
 
 .gradient3 {
-    background: linear-gradient(#096565, #174965);
+  background: linear-gradient(#096565, #174965);
 }
 
 .gradient4 {
-    background: linear-gradient(#203765, #2B2265);
+  background: linear-gradient(#203765, #2b2265);
 }
 
 .gradient5 {
-    background: linear-gradient(#301765, #370965);
+  background: linear-gradient(#301765, #370965);
 }
 
 .gradient6 {
-    background: linear-gradient(#370965, #4a095a);
+  background: linear-gradient(#370965, #4a095a);
 }
-
-/* .gradient7{
-    background: linear-gradient(#520956, #65094B);
-} 
-
-.textToLeft {
-    text-align: left;
-}
-
-.textToRight {
-    text-align: right;
-} */
 
 .textToCenter {
-    text-align: center;
+  text-align: center;
 }
