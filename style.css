@@ -47,12 +47,10 @@ header > nav > div {
   height: 100%;
 }
 
-.sign_in {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  width: 20%;
-  height: 100%;
+li {
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 10px;
 }
 
 button {
@@ -62,6 +60,14 @@ button {
   font-size: 36px;
   font-weight: 700;
   color: white;
+}
+
+.sign_in {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 20%;
+  height: 100%;
 }
 
 .sign_in_button {
@@ -183,6 +189,91 @@ main {
   font-size: 24px;
   width: 70%;
   height: 100%;
+}
+
+#languages {
+  height: 90vh;
+}
+
+#languages > div {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  border: 1px dashed red;
+  height: 90%;
+  width: 65%;
+}
+
+.languages_blocks {
+  height: 85%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 1px dashed red;
+}
+
+.languages_blocks > div {
+  display: flex;
+  background-color: #cacaca;
+  flex-direction: column;
+  font-size: 21px;
+  color: black;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: justify;
+  align-items: center;
+  height: 90%;
+  width: 30%;
+  border: 1px dashed yellow;
+}
+
+.languages_blocks > div > img {
+  height: 40%;
+  width: 62%;
+}
+
+#courses {
+  height: 90vh;
+}
+
+#courses > div {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  border: 1px dashed red;
+  height: 90%;
+  width: 65%;
+}
+
+.courses_blocks {
+  height: 85%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 1px dashed red;
+}
+
+.courses_blocks > div {
+  display: flex;
+  background-color: #cacaca;
+  flex-direction: column;
+  font-size: 21px;
+  color: black;
+  border-radius: 10px;
+  padding: 10px;
+  align-items: center;
+  height: 90%;
+  width: 30%;
+  border: 1px dashed yellow;
+}
+
+.courses_blocks > div > img {
+  height: 22%;
+  width: 35%;
 }
 
 .panel {
