@@ -1,13 +1,13 @@
 @font-face {
   font-family: "Ubuntu";
-  src: url(Ubuntu-Light.ttf) format("ttf");
+  src: url(fonts/Ubuntu-Light.ttf) format("ttf");
   font-style: normal;
   font-weight: 300;
 }
 
 @font-face {
   font-family: "Ubuntu";
-  src: url(Ubuntu-Bold.ttf) format("ttf");
+  src: url(fonts/Ubuntu-Bold.ttf) format("ttf");
   font-style: normal;
   font-weight: 700;
 }
@@ -60,6 +60,7 @@ button {
   font-size: 36px;
   font-weight: 700;
   color: white;
+  border: none;
 }
 
 .sign_in {
@@ -72,7 +73,7 @@ button {
 
 .sign_in_button {
   width: 50%;
-  height: 45%;
+  height: 50%;
   background-color: #6f3586;
   color: white;
   font-size: 20px;
@@ -90,8 +91,8 @@ button {
 }
 
 .navLogo > a > img {
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 90%;
 }
 
 .links {
@@ -128,7 +129,6 @@ main {
   width: 70%;
   height: 70%;
   color: #ffffff;
-  border: 1px dashed red;
 }
 
 #about_us > div > p {
@@ -156,38 +156,58 @@ main {
   width: 70%;
   height: 70%;
   color: #ffffff;
-  border: 1px dashed red;
+}
+
+.teacher_intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 20%;
+}
+
+.teachers_blocks {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 80%;
+}
+
+.teachers_blocks > div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 50%;
 }
 
 .teacher_info {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 70%;
-  height: 20%;
-  border: 1px dashed white;
+  width: 50%;
+  height: 100%;
 }
 
 .teacher_img {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px dashed red;
-  width: 25%;
+  width: 40%;
   height: 100%;
 }
 
 .teacher_img > img {
   width: 85%;
-  height: 85%;
+  height: 50%;
 }
 
 .teacher_text {
   display: flex;
-  justify-content: center;
-  border: 1px dashed red;
-  font-size: 24px;
-  width: 70%;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  font-size: 20px;
+  width: 60%;
   height: 100%;
 }
 
@@ -200,7 +220,6 @@ main {
   justify-content: space-between;
   flex-direction: column;
   align-items: center;
-  border: 1px dashed red;
   height: 90%;
   width: 65%;
 }
@@ -211,14 +230,13 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  border: 1px dashed red;
 }
 
 .languages_blocks > div {
   display: flex;
   background-color: #cacaca;
   flex-direction: column;
-  font-size: 21px;
+  font-size: 15px;
   color: black;
   border-radius: 10px;
   padding: 10px;
@@ -226,7 +244,6 @@ main {
   align-items: center;
   height: 90%;
   width: 30%;
-  border: 1px dashed yellow;
 }
 
 .languages_blocks > div > img {
@@ -243,7 +260,6 @@ main {
   justify-content: space-between;
   flex-direction: column;
   align-items: center;
-  border: 1px dashed red;
   height: 90%;
   width: 65%;
 }
@@ -254,7 +270,6 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  border: 1px dashed red;
 }
 
 .courses_blocks > div {
@@ -268,7 +283,6 @@ main {
   align-items: center;
   height: 90%;
   width: 30%;
-  border: 1px dashed yellow;
 }
 
 .courses_blocks > div > img {
@@ -323,59 +337,50 @@ main {
 
 footer {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
   width: 100vw;
-  height: 30vh;
-  background-color: #ffffff;
+  height: 70vh;
+  background-color: #000000;
 }
 
 footer > div {
   display: flex;
-  height: 70%;
+  flex-direction: row;
+  width: 80%;
 }
 
-.footerLogo {
-  width: 25%;
-}
-
-.contacts {
+.links > div {
+  display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  width: 30%;
+  width: 40%;
+  height: 80%;
 }
 
-.contacts > a {
+.links > div > a {
+  font-weight: 700;
+  font-size: 20px;
   text-decoration: none;
-  color: #000000;
-  font-size: 24px;
-  font-weight: 300;
+  color: #ffffff;
 }
 
 .gradient1 {
-  background: linear-gradient(#0b061a, #2c1868);
+  background-color: #292727;
 }
 
 .gradient2 {
-  background: linear-gradient(#341c7d, #096565);
+  background-color: #151313;
 }
 
 .gradient3 {
-  background: linear-gradient(#096565, #174965);
+  background-color: #333333;
 }
 
 .gradient4 {
-  background: linear-gradient(#203765, #2b2265);
-}
-
-.gradient5 {
-  background: linear-gradient(#301765, #370965);
-}
-
-.gradient6 {
-  background: linear-gradient(#370965, #4a095a);
+  background-color: #201e2c;
 }
 
 .textToCenter {
