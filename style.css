@@ -91,8 +91,9 @@ button {
 }
 
 .navLogo > a > img {
-  width: 90%;
-  height: 90%;
+  display: block;
+  max-width: 90%;
+  max-height: 90%;
 }
 
 .links {
@@ -197,8 +198,9 @@ main {
 }
 
 .teacher_img > img {
-  width: 85%;
-  height: 50%;
+  display: block;
+  max-width: 85%;
+  max-height: 50%;
 }
 
 .teacher_text {
@@ -247,8 +249,9 @@ main {
 }
 
 .languages_blocks > div > img {
-  height: 40%;
-  width: 62%;
+  display: block;
+  max-height: 40%;
+  max-width: 62%;
 }
 
 #courses {
@@ -286,8 +289,9 @@ main {
 }
 
 .courses_blocks > div > img {
-  height: 22%;
-  width: 35%;
+  display: block;
+  max-height: 22%;
+  max-width: 35%;
 }
 
 .panel {
