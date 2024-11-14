@@ -1,202 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Nerd Team Project</title>
-  </head>
-  <body>
-    <header>
-      <nav>
-        <div>
-          <section class="navLogo">
-            <a href="#about_us"><img src="images/logonit.png" alt="logo" /></a>
-          </section>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="styles/navbar.css">
+	<link rel="stylesheet" href="styles/popup.css">
+	<title>Nerd Team Project</title>
+</head>
+<body>
+	<!--Модальное окно-->
+	<div class="popup" id="popup">
+		<a id="close_popup" href="#">&times;</a>
+	</div>
 
-          <section class="links">
-            <a href="#about_us">О нас</a>
-            <a href="#contacts">Контакты</a>
-            <a href="#courses">Курсы</a>
-          </section>
-          <section class="sign_in">
-            <button class="sign_in_button">Войти</button>
-          </section>
-        </div>
-      </nav>
-    </header>
+	<!--Навигационная панель-->
+	<header>
+		<nav>
+			<div>
+				<section class="navLogo">
+					<a href="#"><img src="images/logonit.png" alt="logo" /></a>
+				</section>
 
-    <main>
-      <section class="panel gradient1" id="about_us">
-        <!-- 1 block-->
-        <div>
-          <p>
-            Мы короче самый крутой школа да купите курсы на э на че на да на
-          </p>
-          <button>Заказать курсы</button>
-        </div>
-      </section>
+				<section class="links">
+					<a href="#about_us">О нас</a>
+					<a href="#contacts">Контакты</a>
+					<a href="#courses">Курсы</a>
+				</section>
 
-      <section id="teachers" class="panel gradient2">
-        <!-- 2 block-->
-        <div>
-          <div class="teacher_intro">
-            <p style="font-weight: 700; font-size: 32px;">КТО МЫ</p>
-            <p style="font-weight: 700; font-size: 18px;">текст о школе да</p>
-          </div>
+				<section class="sign_in">
+					<button class="sign_in_button">Войти</button>
+				</section>
+			</div>
+		</nav>
+	</header>
 
-          <div class="teachers_blocks">
-            <div>
-              <div class="teacher_info">
-                <div class="teacher_img">
-                  <img src="images/ilan.jpg" alt="teacher" />
-                </div>
-                <div class="teacher_text">
-                  <p style="font-weight: 700;">ИМЯ</p>
-                  <p>текст о учителе</p>
-                </div>
-              </div>
-    
-              <div class="teacher_info">
-                <div class="teacher_img">
-                  <img src="images/bold.jpg" alt="teacher" />
-                </div>
-                <div class="teacher_text">
-                  <p style="font-weight: 700;">ИМЯ</p>
-                  <p>текст о учителе</p>
-                </div>
-              </div>
-            </div>
+	<!--Основной блок-->
+	<main>
 
-            <div>
-              <div class="teacher_info">
-                <div class="teacher_img">
-                  <img src="images/nerd.png" alt="teacher" />
-                </div>
-                <div class="teacher_text">
-                  <p style="font-weight: 700;">ИМЯ</p>
-                  <p>текст о учителе</p>
-                </div>
-              </div>
-    
-              <div class="teacher_info">
-                <div class="teacher_img">
-                  <img src="images/chel.jpg" alt="teacher" />
-                </div>
-                <div class="teacher_text">
-                  <p style="font-weight: 700;">ИМЯ</p>
-                  <p>текст о учителе</p>
-                </div>
-              </div>
-            </div>
-          </div>
+		<!--Секция "О нас"-->
+		<section id="about_us" class="panel">
+			<div>
+				<p>Мы короче самый крутой школа да купите курсы на э на че на да на</p>
+				<button>Заказать курсы</button>
+			</div>
+		</section>
 
-          
+		<!--Секция "Учителя"-->
+		<section id="teachers" class="panel">
+			<div>
 
-          
-        </div>
-      </section>
-      <!-- 3 block-->
-      <section id="languages" class="panel gradient3">
-        <div>
-          <h1 style="color: #ffffff;">Языки, которым мы обучаем</h1>
-          <div class="languages_blocks">
-            <div>
-              <img src="images/python_icon.png" alt="" />
-              <h1>Python</h1>
-              <p style="margin: 20px">
-                это высокоуровневый язык программирования, известный своей
-                простотой и читабельностью кода. В отличие от PHP, который
-                изначально создавался для веб-разработки, Python имеет более
-                широкий спектр применения.
-              </p>
-            </div>
+				<div class="teacher_header">
+					<p style="font-size: 32px;">КТО МЫ</p>
+					<p style="font-size: 18px;">текст о школе да</p>
+				</div>
 
-            <div>
-              <img src="images/js_icon.png" alt="" />
-              <h1>JavaScript</h1>
-              <p style="margin: 20px">
-                это язык, который делает веб-страницы живыми и интерактивными.
-                Представь, что веб-страница — это книга. JavaScript позволяет
-                добавлять в эту книгу кнопки, которые можно нажимать, анимации,
-                которые оживают, и даже игры, в которые можно играть прямо в
-                браузере.
-              </p>
-            </div>
-            <div>
-              <img style="margin: 2px" src="images/PHP_icon.png" alt="" />
-              <h1>PHP</h1>
-              <p style="margin: 20px">
-                это популярный язык программирования, специально созданный для
-                разработки веб-приложений. Если JavaScript делает веб-страницы
-                интерактивными прямо в браузере пользователя, то PHP работает на
-                сервере.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- 4 block-->
-      <section id="courses" class="panel gradient4">
-        <div>
-          <h1 style="color: white">ТАРИФЫ И КУРСЫ</h1>
-          <div class="courses_blocks">
-            <div>
-              <img src="images/begcrs.png" alt="" />
-              <h1 style="margin: 5px">BEGGINER COURSE</h1>
-              <ul>
-                <li>Полное введение в язык программирования</li>
-                <li>Обучение основному кварталу</li>
-                <li>Специальные видео-уроки</li>
-              </ul>
-            </div>
+				<div class="teachers_list">
+					<div>
+						<div class="teacher">
+							<div class="teacher_img">
+								<img src="images/ilan.jpg" alt="teacher" />
+							</div>
 
-            <div>
-              <img src="images/fullcrs.png" alt="" />
-              <h1 style="margin: 5px">FULL COURSE</h1>
-              <ul>
-                <li>Полное обучение языку</li>
-                <li>Обучение профессиональному программированию</li>
-                <li>Специальные видео-уроки</li>
-              </ul>
-            </div>
-            <div>
-              <img src="images/allin.png" alt="" />
-              <h1 style="margin: 5px">ALL-IN</h1>
-              <ul>
-                <li>Все включено</li>
-                <li>Персональные занятия с хедлайнерами</li>
-                <li>Доступ к совещаниям компании</li>
-                <li>
-                  Возможность вступления в состав учителей по окончанию курса
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
+							<div class="teacher_text">
+								<p style="font-weight: 700;">ИМЯ</p>
+								<p>текст о учителе</p>
+							</div>
+						</div>
+					
+						<div class="teacher">
+							<div class="teacher_img">
+								<img src="images/bold.jpg" alt="teacher" />
+							</div>
 
-    <footer id="contacts">
-     <div style="justify-content: center;">
-      <p style="font-weight: 700; font-size: 42px; color: #fff;">NERD IT SCHOOL</p>
-     </div>
+							<div class="teacher_text">
+								<p style="font-weight: 700;">ИМЯ</p>
+								<p>текст о учителе</p>
+							</div>
+						</div>
+					</div>
+				
+					<div>
+						<div class="teacher">
+							<div class="teacher_img">
+								<img src="images/nerd.png" alt="teacher" />
+							</div>
 
-     <div class="links" style="width: 80%; height: 70%; justify-content: space-around;">
-      <div>
-        <a href="#">Сотрудничество</a>
-        <a href="#">Политика конфиденциальности</a>
-        <a href="#">Тех. поддержка</a>
-        <a href="#">Отзывы</a>
-      </div>
+							<div class="teacher_text">
+								<p style="font-weight: 700;">ИМЯ</p>
+								<p>текст о учителе</p>
+							</div>
+						</div>
+					
+						<div class="teacher">
+							<div class="teacher_img">
+								<img src="images/chel.jpg" alt="teacher" />
+							</div>
 
-      <div>
-        <a href="#">сайт</a>
-        <a href="#">почта</a>
-        <a href="#">инста</a>
-        <a href="#">телеграм</a>
-      </div>
-     </div>
-    </footer>
-  </body>
+							<div class="teacher_text">
+								<p style="font-weight: 700;">ИМЯ</p>
+								<p>текст о учителе</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<!--Секция "Языки программирования"-->
+		<section id="languages" class="panel">
+			<div>
+				<h1 style="color: #ffffff;">Языки, которым мы обучаем</h1>
+
+				<div class="languages_blocks">
+					<div>
+						<img src="images/python_icon.png" alt="" />
+						<h1>Python</h1>
+						<p style="margin: 20px">
+							это высокоуровневый язык программирования, известный своей
+							простотой и читабельностью кода. В отличие от PHP, который
+							изначально создавался для веб-разработки, Python имеет более
+							широкий спектр применения.
+						</p>
+					</div>
+				
+					<div>
+						<img src="images/js_icon.png" alt="" />
+						<h1>JavaScript</h1>
+						<p style="margin: 20px">
+							это язык, который делает веб-страницы живыми и интерактивными.
+							Представь, что веб-страница — это книга. JavaScript позволяет
+							добавлять в эту книгу кнопки, которые можно нажимать, анимации,
+							которые оживают, и даже игры, в которые можно играть прямо в
+							браузере.
+						</p>
+					</div>
+
+					<div>
+						<img style="margin: 2px" src="images/PHP_icon.png" alt="" />
+						<h1>PHP</h1>
+						<p style="margin: 20px">
+							это популярный язык программирования, специально созданный для
+							разработки веб-приложений. Если JavaScript делает веб-страницы
+							интерактивными прямо в браузере пользователя, то PHP работает на
+							сервере.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!--Секция "Курсы"-->
+		<section id="courses" class="panel">
+			<div>
+
+				<h1 style="color: white">КУРСЫ</h1>
+
+				<div class="courses_blocks">
+					<div>
+						<img src="images/begcrs.png" alt="" />
+						<h1 style="margin: 5px">BEGGINER COURSE</h1>
+					</div>
+				
+					<div>
+						<img src="images/fullcrs.png" alt="" />
+						<h1 style="margin: 5px">FULL COURSE</h1>
+					</div>
+				
+					<div>
+						<img src="images/allin.png" alt="" />
+						<h1 style="margin: 5px">ALL-IN</h1>
+					</div>
+				</div>
+
+			</div>
+		</section>
+	</main>
+
+	<!--Подвал сайта-->
+	<footer id="contacts">
+		<div style="justify-content: center;">
+			<p style="font-weight: 700; font-size: 42px; color: #fff;">NERD IT SCHOOL</p>
+		</div>
+
+		<div class="links" style="width: 80%; height: 70%; justify-content: space-around;">
+			<div>
+				<a href="#">Сотрудничество</a>
+				<a href="#">Политика конфиденциальности</a>
+				<a href="#">Тех. поддержка</a>
+				<a href="#">Отзывы</a>
+			</div>
+		
+			<div>
+				<a href="#">сайт</a>
+				<a href="#">почта</a>
+				<a href="#">инста</a>
+				<a href="#">телеграм</a>
+			</div>
+		</div>
+	</footer>
+
+	<script src="scripts/popup.js"></script>
+</body>
 </html>
