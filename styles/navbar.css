@@ -22,19 +22,14 @@ header > nav > div {
 .navLogo {
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 20%;
   height: 100%;
 }
   
-.navLogo > a {
-  display: flex;
-  justify-content: center;
-}
-  
-.navLogo > a > img {
-  display: block;
-  max-width: 90%;
-  max-height: 90%;
+.navLogo > img {
+  max-width: 75%;
+  max-height: 75%;
 }
   
 .links {
@@ -49,22 +44,4 @@ header > nav > div {
   font-size: 20px;
   color: black;
   text-decoration: none;
-}
-
-.sign_in {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  width: 20%;
-  height: 100%;
-}
-  
-.sign_in_button {
-  width: 50%;
-  height: 50%;
-  background-color: #6f3586;
-  color: white;
-  font-size: 20px;
-  font-weight: 700;
-  border: none;
 }

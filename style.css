@@ -47,7 +47,8 @@ main {
 
 #about_us {
   height: 100vh;
-  background-color: #292727;
+  background-image: url(images/bg.jpg);
+  background-size: cover;
 }
 
 #teachers {
@@ -58,6 +59,12 @@ main {
 #languages {
   height: 90vh;
   background-color: #333333;
+}
+
+#education {
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
 }
 
 #courses {
@@ -72,26 +79,29 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 70%;
-  height: 70%;
+  width: 40%;
+  height: 50%;
+  background-color: rgba(0, 0, 0, 0.7);
   color: #ffffff;
 }
 
 #about_us > div > p {
-  font-size: 56px;
-  text-align: center;
-  color: #ffffff;
+  font-size: 36px;
   font-weight: 700;
 }
 
 #about_us > div > button {
-  width: 40%;
-  height: 15%;
-  background-color: #cf733a;
-  font-size: 36px;
-  font-weight: 700;
-  color: white;
+  background-color: #2f2fa3;
+  color: #ffffff;
   border: none;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+#about_us > div > button:hover {
+  background-color: #ffffff;
+  color: #2f2fa3;
 }
 
 /* Стили секции "Учителя" */
@@ -203,6 +213,16 @@ main {
   max-width: 62%;
 }
 
+/* Стили секции "Обучение" */
+
+#education > h2 {
+  color: #2f2fa3;
+}
+
+#education > ul {
+  list-style: none;
+}
+
 /* Стили секции "Курсы" */
 
 #courses > div {
@@ -239,7 +259,6 @@ main {
 }
 
 .courses_blocks > div:hover {
-  transition: 0.8s;
   transform: scale(1.02);
 }
 
