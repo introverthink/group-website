@@ -6,45 +6,45 @@ main {
     justify-content: space-between;
     width: 100vw;
     height: auto;
-  }
+}
   
-  .panel {
+.panel {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
-  }
+}
   
-  #introduction {
+#introduction {
     height: 80vh;
     background-image: url(../../images/bg.jpg);
     background-size: cover;
-  }
+}
   
-  #education {
+#education {
     height: 25vh;
     background-color: #ffffff;
-  }
+}
   
-  #about {
+#about {
     height: 25vh;
     background-color: #f0f0f0;
-  }
+}
   
-  #courses {
+#courses {
     height: 50vh;
     background-color: #ffffff;
-  }
+}
   
-  #contacts {
+#contacts {
     height: 25vh;
     background-color: #f0f0f0;
-  }
+}
+
+/* Стили секции "Представление" */
   
-  /* Стили секции "Представление" */
-  
-  #introduction > div {
+#introduction > div {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -53,74 +53,74 @@ main {
     height: 50%;
     background-color: rgba(0, 0, 0, 0.7);
     color: #ffffff;
-  }
+}
   
-  #introduction > div > p {
+#introduction > div > p {
     font-size: 36px;
     font-weight: 700;
-  }
+}
   
-  #introduction > div > button {
+#introduction > div > button {
     background-color: #2f2fa3;
     color: #ffffff;
     border: none;
     padding: 10px;
     font-size: 18px;
     font-weight: 700;
-  }
+}
   
-  #introduction > div > button:hover {
+#introduction > div > button:hover {
     background-color: #ffffff;
     color: #2f2fa3;
     cursor: pointer;
-  }
+}
   
-  /* Стили секции "Обучение" */
+/* Стили секции "Обучение" */
   
-  #education > div {
+#education > div {
     display: flex;
     flex-direction: column;
     width: 70%;
     height: 80%;
-  }
+}
   
-  #education > div > h1 {
+#education > div > h1 {
     align-self: center;
     color: #2f2fa3;
-  }
+}
   
-  #education > div > ul {
+#education > div > ul {
     align-self: left;
     list-style-type: circle;
-  }
+}
   
-  /* Стили секции "О нас" */
+/* Стили секции "О нас" */
   
-  #about > div {
+#about > div {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     width: 70%;
     height: 80%;
-  }
+}
   
-  #about > div > h1 {
+#about > div > h1 {
     color: #2f2fa3;
-  }
+}
   
-  /* Стили секции "Курсы" */
+/* Стили секции "Курсы" */
   
-  #courses > div {
+#courses > div {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     width: 70%;
     height: 80%;
-  }
+}
   
-  .course_block {
+.course_block {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -128,36 +128,36 @@ main {
     width: 30%;
     height: 87%;
     background-color: #f0f0f0;
-  }
+}
   
-  .course_block:hover {
+.course_block:hover {
     transform: scale(1.10);
     cursor: pointer;
-  }
+}
   
-  .course_block > img {
+.course_block > img {
     max-width: 40%;
     max-height: 40%;
-  }
+}
   
-  /* Стили секции "Контакты" */
+/* Стили секции "Контакты" */
   
-  #contacts > div {
+#contacts > div {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     width: 70%;
     height: 80%;
-  }
-  
-  #contacts > div > h1 {
+}
+
+#contacts > div > h1 {
     color: #2f2fa3;
-  }
+}
   
-  /*Стили подвала*/
+/*Стили подвала*/
   
-  footer {
+footer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -165,4 +165,4 @@ main {
     height: 10vh;
     background-color: #2f2fa3;
     color: #ffffff;
-  }
+}

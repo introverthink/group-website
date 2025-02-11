@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="styles/index/index.css">
-	<link rel="stylesheet" href="styles/index/navbar.css">
+	<link rel="stylesheet" href="styles/navbar.css">
 	<title>Nerd Team Project</title>
 </head>
 <body>
@@ -63,7 +63,7 @@
 
 		<section id="courses" class="panel">
 			<div>
-				<div class="course_block">
+				<div class="course_block" onclick="redirect('pages/begcrs.html')">
 					<img src="images/begcrs.png" alt="">
 					<h1>Beginner Course</h1>
 				</div>
@@ -97,5 +97,10 @@
 		<p>© 2025 NIT. All rights reserved</p>
 	</footer>
 
+	<script>
+		function redirect(arg) {
+			window.location.href = arg;
+		}
+	</script>
 </body>
 </html>

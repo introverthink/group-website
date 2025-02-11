@@ -1,0 +1,44 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100vw;
+    height: auto;
+}
+
+.panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+#begcrs {
+    height: 80vh;
+    background-color: #f0f0f0;
+}
+
+/* ----------------- */
+
+#begcrs > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+    height: 70%;
+    border: 1px dashed red;
+}
+
+#begcrs > div > div {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 100%;
+    border: 1px dashed green;
+}
+
+#begcrs > div > div > img {
+    max-width: 80%;
+    max-height: 80%;
+}
